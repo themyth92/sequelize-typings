@@ -4,7 +4,6 @@ import Op = require('./lib/operators');
 import QueryTypes = require('./lib/query-types');
 import TableHints = require('./lib/table-hints');
 import IndexHints = require('./lib/index-hints');
-import Utils = require('./lib/utils');
 import * as Association from './lib/associations';
 import * as Error from './lib/errors';
 import * as Model from './lib/model';
@@ -14,6 +13,7 @@ import * as Sequelize from './lib/sequelize';
 import * as Transaction from './lib/transaction';
 import * as ValidatorExtra from './lib/utils/validator-extras';
 
+import Utils = require('./lib/utils');
 declare module 'sequelize' {
   export * from './lib/sequelize';
   export * from './lib/query-interface';

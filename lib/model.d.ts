@@ -14,13 +14,14 @@ import { Deferrable } from './deferrable';
 import { HookReturn, Hooks, ModelHooks } from './hooks';
 import { ValidationOptions } from './instance-validator';
 import { ModelManager } from './model-manager';
-import Op = require('./operators');
 import { Promise } from './promise';
-import { QueryOptions, IndexesOptions } from './query-interface';
+import { IndexesOptions, QueryOptions } from './query-interface';
 import { Config, Options, Sequelize, SyncOptions } from './sequelize';
 import { Transaction } from './transaction';
 import { Col, Fn, Literal, Where } from './utils';
-import { IndexHints } from '..';
+
+import Op = require('./operators');
+import IndexHints = require('./index-hints');
 
 export interface Logging {
   /**
