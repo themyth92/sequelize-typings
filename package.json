@@ -1,0 +1,14 @@
+{
+  "name": "@ts-typings/sequelize",
+  "version": "1.0.0",
+  "description": "Typescript typing for sequelize >= v5. Mirror from the original sequelize repo",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
