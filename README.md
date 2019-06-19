@@ -7,8 +7,11 @@
 - Include custom types in your tsconfig. I.e:
 
 ```
-"typeRoots": [
-  "node_modules/@ts-typings",
-  "node_modules/@types"
-]
+"compilerOptions": {
+  ...
+  "baseUrl": "./",
+  "paths": {
+    "*": ["node_modules/@ts-typings/*"]
+  }
+}
 ```

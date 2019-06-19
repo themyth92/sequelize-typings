@@ -1,6 +1,6 @@
 {
   "name": "@ts-typings/sequelize",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Typescript typing for sequelize >= v5. Mirror from the original sequelize repo",
   "main": "index.js",
   "directories": {
@@ -16,5 +16,9 @@
     "@types/node": "^12.0.8",
     "@types/validator": "^10.11.1"
   },
-  "types": "index.d.ts"
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/themyth92/sequelize-typings.git"
+  }
 }
