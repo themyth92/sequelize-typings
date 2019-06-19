@@ -1,6 +1,6 @@
 {
   "name": "@ts-typings/sequelize",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Typescript typing for sequelize >= v5. Mirror from the original sequelize repo",
   "main": "index.js",
   "directories": {
